@@ -1,0 +1,14 @@
+check,observed,expected,status,notes
+Operations row count,500,500,PASS,
+Unique order IDs,500,500,PASS,
+Sales transaction rows,1500,1500,PASS,
+Unique order IDs in sales,500,500,PASS,
+Missing region values,0,0,PASS,
+Missing employee IDs,0,0,PASS,
+Missing expected delivery dates,0,0,PASS,
+Orders with valid statuses,500,500,PASS,
+Orphan sales order IDs,0,0,PASS,
+Cancelled flag consistency,0,0,PASS,
+Return flag consistency,0,0,PASS,
+Actual dates blank for open/cancelled statuses,0,0,PASS,
+Negative profit transaction lines retained,503,503,PASS,Negative-profit records retained for analysis; not treated as data errors.

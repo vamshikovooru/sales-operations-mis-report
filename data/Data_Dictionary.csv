@@ -1,0 +1,27 @@
+field_name,description,lineage_type
+order_id,Unique order identifier,Source / cleaned
+order_date,Date order was placed,Source / cleaned
+customer_name,Customer label from source,Source / cleaned
+state,Indian state,Source / cleaned
+city,City,Source / cleaned
+region,Region mapped from state,Mapped from provided region mapping
+employee_id,Assigned employee identifier,Simulated assignment using provided employee roster
+sales_executive,Assigned sales executive,Simulated assignment using provided employee roster
+processing_days,Elapsed days before processing,Provided operations workbook
+processing_date,Date order processing completed/started per source logic,Provided operations workbook
+delivery_sla_days,Expected service-level days,Provided operations workbook
+expected_delivery_date,Expected delivery date,Provided operations workbook; date serial normalized
+actual_delivery_date,Sample actual delivery date for delivered/returned statuses,Simulated for portfolio; not historical fact
+order_status,Delivery/order status,Provided operations workbook
+warehouse,Region-based sample warehouse,Simulated for portfolio
+courier,Region-based sample courier,Simulated for portfolio
+cancellation_flag,Yes if status is Cancelled,Calculated
+return_flag,Yes if status is Returned,Calculated
+delivery_days,Actual delivery date minus processing date,Calculated from simulated date
+delay_days,"Days beyond expected date, floor at zero",Calculated from simulated date
+on_time_flag,Yes when actual date is on/before expected date,Calculated from simulated date
+sales_amount,Sales amount for line item,Source / cleaned
+profit,Profit for line item; negatives retained,Source / cleaned
+quantity,Units in line item,Source / cleaned
+target,Monthly target by category,Source target table; use target table at month/category grain
+target_achievement_pct,Actual sales divided by target at month/category grain,Calculated; avoid summing duplicated line-level target fields

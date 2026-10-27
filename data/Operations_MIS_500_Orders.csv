@@ -1,0 +1,501 @@
+Index,order_id,order_date,customer_name,state,city,region,employee_id,sales_executive,processing_days,processing_date,delivery_sla_days,expected_delivery_date,actual_delivery_date,order_status,warehouse,courier,cancellation_flag,return_flag,delivery_days,delay_days,on_time_flag
+1,B-25601,2018-04-01,Bharat,Gujarat,Ahmedabad,West,E001,Rahul,1,2018-04-02,4,2018-04-06,2018-04-05,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+2,B-25619,2018-04-18,Ramesh,Gujarat,Ahmedabad,West,E002,Priya,2,2018-04-20,5,2018-04-25,2018-04-25,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+3,B-25618,2018-04-18,Manju,Andhra Pradesh,Hyderabad,South,E003,Arjun,0,2018-04-18,6,2018-04-24,2018-04-25,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+4,B-25602,2018-04-01,Pearl,Maharashtra,Pune,West,E004,Sneha,1,2018-04-02,7,2018-04-09,2018-04-11,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+5,B-25620,2018-04-20,Sarita,Maharashtra,Pune,West,E005,Kiran,2,2018-04-22,3,2018-04-25,2018-04-23,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+6,B-25610,2018-04-09,Yogesh,Bihar,Patna,East,E006,Anjali,0,2018-04-09,4,2018-04-13,2018-04-12,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+7,B-25603,2018-04-03,Jahan,Madhya Pradesh,Bhopal,Central,E007,Vikram,1,2018-04-04,5,2018-04-09,2018-04-09,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+8,B-25604,2018-04-03,Divsha,Rajasthan,Jaipur,North,E008,Neha,2,2018-04-05,6,2018-04-11,2018-04-12,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+9,B-25616,2018-04-15,Kanak,Goa,Goa,West,E001,Rahul,0,2018-04-15,7,2018-04-22,2018-04-24,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+10,B-25605,2018-04-05,Kasheen,West Bengal,Kolkata,East,E002,Priya,1,2018-04-06,3,2018-04-09,2018-04-07,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+11,B-25606,2018-04-06,Hazel,Karnataka,Bangalore,South,E003,Arjun,2,2018-04-08,4,2018-04-12,2018-04-11,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+12,B-25613,2018-04-12,Mukesh,Haryana,Chandigarh,North,E004,Sneha,0,2018-04-12,5,2018-04-17,2018-04-17,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+13,B-25607,2018-04-06,Sonakshi,Jammu and Kashmir,Kashmir,North,E005,Kiran,1,2018-04-07,6,2018-04-13,2018-04-14,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+14,B-25614,2018-04-13,Vandana,Himachal Pradesh,Simla,North,E006,Anjali,2,2018-04-15,7,2018-04-22,2018-04-24,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+15,B-25608,2018-04-08,Aarushi,Tamil Nadu,Chennai,South,E007,Vikram,0,2018-04-08,3,2018-04-11,2018-04-09,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+16,B-25609,2018-04-09,Jitesh,Uttar Pradesh,Lucknow,North,E008,Neha,1,2018-04-10,4,2018-04-14,2018-04-13,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+17,B-25611,2018-04-11,Anita,Kerala,Thiruvananthapuram,South,E001,Rahul,2,2018-04-13,5,2018-04-18,2018-04-18,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+18,B-25612,2018-04-12,Shrichand,Punjab,Chandigarh,North,E002,Priya,0,2018-04-12,6,2018-04-18,2018-04-19,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+19,B-25617,2018-04-17,Sagar,Nagaland,Kohima,North-East,E003,Arjun,1,2018-04-18,7,2018-04-25,2018-04-27,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+20,B-25615,2018-04-15,Bhavna,Sikkim,Gangtok,North-East,E004,Sneha,2,2018-04-17,3,2018-04-20,2018-04-18,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+21,B-25621,2018-04-20,Deepak,Madhya Pradesh,Bhopal,Central,E005,Kiran,0,2018-04-20,4,2018-04-24,2018-04-23,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+22,B-25622,2018-04-22,Monisha,Rajasthan,Jaipur,North,E006,Anjali,1,2018-04-23,5,2018-04-28,2018-04-28,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+23,B-25623,2018-04-22,Atharv,West Bengal,Kolkata,East,E007,Vikram,2,2018-04-24,6,2018-04-30,2018-05-01,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+24,B-25624,2018-04-22,Vini,Karnataka,Bangalore,South,E008,Neha,0,2018-04-22,7,2018-04-29,2018-05-01,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+25,B-25625,2018-04-23,Pinky,Jammu and Kashmir,Kashmir,North,E001,Rahul,1,2018-04-24,3,2018-04-27,2018-04-25,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+26,B-25626,2018-04-23,Bhishm,Maharashtra,Mumbai,West,E002,Priya,2,2018-04-25,4,2018-04-29,2018-04-28,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+27,B-25627,2018-04-23,Hitika,Madhya Pradesh,Indore,Central,E003,Arjun,0,2018-04-23,5,2018-04-28,2018-04-28,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+28,B-25628,2018-04-24,Pooja,Bihar,Patna,East,E004,Sneha,1,2018-04-25,6,2018-05-01,2018-05-02,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+29,B-25629,2018-04-24,Hemant,Kerala,Thiruvananthapuram,South,E005,Kiran,2,2018-04-26,7,2018-05-03,2018-05-05,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+30,B-25630,2018-04-24,Sahil,Punjab,Chandigarh,North,E006,Anjali,0,2018-04-24,3,2018-04-27,2018-04-25,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+31,B-25631,2018-04-24,Ritu,Haryana,Chandigarh,North,E007,Vikram,1,2018-04-25,4,2018-04-29,2018-04-28,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+32,B-25632,2018-04-25,Manish,Himachal Pradesh,Simla,North,E008,Neha,2,2018-04-27,5,2018-05-02,2018-05-02,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+33,B-25633,2018-04-26,Amit,Sikkim,Gangtok,North-East,E001,Rahul,0,2018-04-26,6,2018-05-02,2018-05-03,Delivered,North-East Hub,Courier F,No,No,7.0,1.0,No
+34,B-25634,2018-04-26,Sanjay,Goa,Goa,West,E002,Priya,1,2018-04-27,7,2018-05-04,2018-05-06,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+35,B-25635,2018-04-26,Nidhi,Nagaland,Kohima,North-East,E003,Arjun,2,2018-04-28,3,2018-05-01,2018-04-29,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+36,B-25636,2018-04-26,Nishi,Maharashtra,Mumbai,West,E004,Sneha,0,2018-04-26,4,2018-04-30,2018-04-29,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+37,B-25637,2018-04-26,Ashmi,Madhya Pradesh,Indore,Central,E005,Kiran,1,2018-04-27,5,2018-05-02,2018-05-02,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+38,B-25638,2018-04-26,Parth,Maharashtra,Pune,West,E006,Anjali,2,2018-04-28,6,2018-05-04,2018-05-05,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+39,B-25639,2018-04-27,Lisha,Madhya Pradesh,Bhopal,Central,E007,Vikram,0,2018-04-27,7,2018-05-04,2018-05-06,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+40,B-25640,2018-04-27,Paridhi,Rajasthan,Jaipur,North,E008,Neha,1,2018-04-28,3,2018-05-01,2018-04-29,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+41,B-25641,2018-04-27,Parishi,West Bengal,Kolkata,East,E001,Rahul,2,2018-04-29,4,2018-05-03,2018-05-02,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+42,B-25642,2018-04-28,Ajay,Karnataka,Bangalore,South,E002,Priya,0,2018-04-28,5,2018-05-03,2018-05-03,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+43,B-25643,2018-04-29,Kirti,Jammu and Kashmir,Kashmir,North,E003,Arjun,1,2018-04-30,6,2018-05-06,2018-05-07,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+44,B-25644,2018-04-30,Mayank,Maharashtra,Mumbai,West,E004,Sneha,2,2018-05-02,7,2018-05-09,2018-05-11,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+45,B-25645,2018-05-01,Yaanvi,Madhya Pradesh,Indore,Central,E005,Kiran,0,2018-05-01,3,2018-05-04,2018-05-02,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+46,B-25646,2018-05-01,Sonal,Bihar,Patna,East,E006,Anjali,1,2018-05-02,4,2018-05-06,2018-05-05,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+47,B-25647,2018-05-03,Sharda,Kerala,Thiruvananthapuram,South,E007,Vikram,2,2018-05-05,5,2018-05-10,2018-05-10,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+48,B-25648,2018-05-04,Aditya,Punjab,Chandigarh,North,E008,Neha,0,2018-05-04,6,2018-05-10,2018-05-11,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+49,B-25649,2018-05-05,Rachna,Haryana,Chandigarh,North,E001,Rahul,1,2018-05-06,7,2018-05-13,2018-05-15,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+50,B-25650,2018-05-06,Chirag,Maharashtra,Mumbai,West,E002,Priya,2,2018-05-08,3,2018-05-11,2018-05-09,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+51,B-25651,2018-05-07,Anurag,Madhya Pradesh,Indore,Central,E003,Arjun,0,2018-05-07,4,2018-05-11,2018-05-10,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+52,B-25652,2018-05-08,Tushina,Goa,Goa,West,E004,Sneha,1,2018-05-09,5,2018-05-14,2018-05-14,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+53,B-25653,2018-05-08,Farah,Nagaland,Kohima,North-East,E005,Kiran,2,2018-05-10,6,2018-05-16,2018-05-17,Delivered,North-East Hub,Courier F,No,No,7.0,1.0,No
+54,B-25654,2018-05-10,Sabah,Maharashtra,Mumbai,West,E006,Anjali,0,2018-05-10,7,2018-05-17,2018-05-19,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+55,B-25655,2018-05-11,Nida,Madhya Pradesh,Indore,Central,E007,Vikram,1,2018-05-12,3,2018-05-15,2018-05-13,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+56,B-25656,2018-05-11,Priyanka,Maharashtra,Pune,West,E008,Neha,2,2018-05-13,4,2018-05-17,2018-05-16,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+57,B-25657,2018-05-13,Tulika,Madhya Pradesh,Bhopal,Central,E001,Rahul,0,2018-05-13,5,2018-05-18,2018-05-18,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+58,B-25658,2018-05-14,Shefali,Rajasthan,Jaipur,North,E002,Priya,1,2018-05-15,6,2018-05-21,2018-05-22,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+59,B-25659,2018-05-15,Sanskriti,West Bengal,Kolkata,East,E003,Arjun,2,2018-05-17,7,2018-05-24,2018-05-26,Delivered,East Hub,Courier D,No,No,9.0,2.0,No
+60,B-25660,2018-05-16,Shruti,Karnataka,Bangalore,South,E004,Sneha,0,2018-05-16,3,2018-05-19,2018-05-17,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+61,B-25661,2018-05-17,Subhashree,Jammu and Kashmir,Kashmir,North,E005,Kiran,1,2018-05-18,4,2018-05-22,2018-05-21,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+62,B-25662,2018-05-17,Sweta,Maharashtra,Mumbai,West,E006,Anjali,2,2018-05-19,5,2018-05-24,2018-05-24,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+63,B-25663,2018-05-19,Pournamasi,Madhya Pradesh,Indore,Central,E007,Vikram,0,2018-05-19,6,2018-05-25,2018-05-26,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+64,B-25664,2018-05-20,Pratyusmita,Bihar,Patna,East,E008,Neha,1,2018-05-21,7,2018-05-28,2018-05-30,Delivered,East Hub,Courier D,No,No,9.0,2.0,No
+65,B-25665,2018-05-21,Chayanika,Kerala,Thiruvananthapuram,South,E001,Rahul,2,2018-05-23,3,2018-05-26,2018-05-24,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+66,B-25666,2018-05-22,Tanvi,Punjab,Chandigarh,North,E002,Priya,0,2018-05-22,4,2018-05-26,2018-05-25,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+67,B-25667,2018-05-23,Anjali,Haryana,Chandigarh,North,E003,Arjun,1,2018-05-24,5,2018-05-29,2018-05-29,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+68,B-25668,2018-05-24,Rhea,Himachal Pradesh,Simla,North,E004,Sneha,2,2018-05-26,6,2018-06-01,2018-06-02,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+69,B-25669,2018-05-25,Piyali,Sikkim,Gangtok,North-East,E005,Kiran,0,2018-05-25,7,2018-06-01,2018-06-03,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+70,B-25670,2018-05-25,Charika,Goa,Goa,West,E006,Anjali,1,2018-05-26,3,2018-05-29,2018-05-27,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+71,B-25671,2018-05-27,Mitali,Nagaland,Kohima,North-East,E007,Vikram,2,2018-05-29,4,2018-06-02,2018-06-01,Delivered,North-East Hub,Courier F,No,No,3.0,0.0,Yes
+72,B-25672,2018-05-28,Akanksha,Andhra Pradesh,Hyderabad,South,E008,Neha,0,2018-05-28,5,2018-06-02,2018-06-02,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+73,B-25673,2018-05-28,Arsheen,Gujarat,Ahmedabad,West,E001,Rahul,1,2018-05-29,6,2018-06-04,2018-06-05,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+74,B-25674,2018-05-28,Mahima,Maharashtra,Pune,West,E002,Priya,2,2018-05-30,7,2018-06-06,2018-06-08,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+75,B-25675,2018-05-31,Shreya,Madhya Pradesh,Bhopal,Central,E003,Arjun,0,2018-05-31,3,2018-06-03,2018-06-01,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+76,B-25676,2018-06-01,Chandni,Rajasthan,Jaipur,North,E004,Sneha,1,2018-06-02,4,2018-06-06,,Processing,North Hub,Courier C,No,No,,,
+77,B-25677,2018-06-02,Ekta,West Bengal,Kolkata,East,E005,Kiran,2,2018-06-04,5,2018-06-09,,Processing,East Hub,Courier D,No,No,,,
+78,B-25678,2018-06-03,Bathina,Karnataka,Bangalore,South,E006,Anjali,0,2018-06-03,6,2018-06-09,,Processing,South Hub,Courier E,No,No,,,
+79,B-25679,2018-06-04,Avni,Maharashtra,Mumbai,West,E007,Vikram,1,2018-06-05,7,2018-06-12,,Processing,West Hub,Courier A,No,No,,,
+80,B-25680,2018-06-04,Aayushi,Madhya Pradesh,Indore,Central,E008,Neha,2,2018-06-06,3,2018-06-09,,Processing,Central Hub,Courier B,No,No,,,
+81,B-25681,2018-06-04,Bhawna,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-06-04,4,2018-06-08,,Processing,Central Hub,Courier B,No,No,,,
+82,B-25682,2018-06-07,Krutika,Bihar,Patna,East,E002,Priya,1,2018-06-08,5,2018-06-13,,Processing,East Hub,Courier D,No,No,,,
+83,B-25683,2018-06-08,Shreya,Kerala,Thiruvananthapuram,South,E003,Arjun,2,2018-06-10,6,2018-06-16,,Processing,South Hub,Courier E,No,No,,,
+84,B-25684,2018-06-09,Samiksha,Maharashtra,Mumbai,West,E004,Sneha,0,2018-06-09,7,2018-06-16,,Pending,West Hub,Courier A,No,No,,,
+85,B-25685,2018-06-10,Sheetal,Madhya Pradesh,Indore,Central,E005,Kiran,1,2018-06-11,3,2018-06-14,,Pending,Central Hub,Courier B,No,No,,,
+86,B-25686,2018-06-11,Pooja,Himachal Pradesh,Simla,North,E006,Anjali,2,2018-06-13,4,2018-06-17,,Pending,North Hub,Courier C,No,No,,,
+87,B-25687,2018-06-11,Sanjna,Maharashtra,Mumbai,West,E007,Vikram,0,2018-06-11,5,2018-06-16,,Pending,West Hub,Courier A,No,No,,,
+88,B-25688,2018-06-11,Swetha,Madhya Pradesh,Indore,Central,E008,Neha,1,2018-06-12,6,2018-06-18,,Pending,Central Hub,Courier B,No,No,,,
+89,B-25689,2018-06-14,Bhaggyasree,Maharashtra,Mumbai,West,E001,Rahul,2,2018-06-16,7,2018-06-23,,Pending,West Hub,Courier A,No,No,,,
+90,B-25690,2018-06-15,Gunjan,Madhya Pradesh,Indore,Central,E002,Priya,0,2018-06-15,3,2018-06-18,,Pending,Central Hub,Courier B,No,No,,,
+91,B-25691,2018-06-16,Akancha,Maharashtra,Mumbai,West,E003,Arjun,1,2018-06-17,4,2018-06-21,,Cancelled,West Hub,Courier A,Yes,No,,,
+92,B-25692,2018-06-17,Rashmi,Madhya Pradesh,Indore,Central,E004,Sneha,2,2018-06-19,5,2018-06-24,,Cancelled,Central Hub,Courier B,Yes,No,,,
+93,B-25693,2018-06-18,Parna,Madhya Pradesh,Bhopal,Central,E005,Kiran,0,2018-06-18,6,2018-06-24,,Cancelled,Central Hub,Courier B,Yes,No,,,
+94,B-25694,2018-06-18,Subhasmita,Rajasthan,Jaipur,North,E006,Anjali,1,2018-06-19,7,2018-06-26,,Cancelled,North Hub,Courier C,Yes,No,,,
+95,B-25695,2018-06-18,Suhani,West Bengal,Kolkata,East,E007,Vikram,2,2018-06-20,3,2018-06-23,,Cancelled,East Hub,Courier D,Yes,No,,,
+96,B-25696,2018-06-21,Noopur,Karnataka,Bangalore,South,E008,Neha,0,2018-06-21,4,2018-06-25,,Cancelled,South Hub,Courier E,Yes,No,,,
+97,B-25697,2018-06-22,Vijay,Jammu and Kashmir,Kashmir,North,E001,Rahul,1,2018-06-23,5,2018-06-28,2018-06-28,Returned,North Hub,Courier C,No,Yes,5.0,0.0,Yes
+98,B-25698,2018-06-23,Amisha,Tamil Nadu,Chennai,South,E002,Priya,2,2018-06-25,6,2018-07-01,2018-07-02,Returned,South Hub,Courier E,No,Yes,7.0,1.0,No
+99,B-25699,2018-06-24,Kritika,Uttar Pradesh,Lucknow,North,E003,Arjun,0,2018-06-24,7,2018-07-01,2018-07-03,Returned,North Hub,Courier C,No,Yes,9.0,2.0,No
+100,B-25700,2018-06-25,Shubhi,Maharashtra,Mumbai,West,E004,Sneha,1,2018-06-26,3,2018-06-29,2018-06-27,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+101,B-25701,2018-06-26,Maithilee,Madhya Pradesh,Indore,Central,E005,Kiran,2,2018-06-28,4,2018-07-02,2018-07-01,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+102,B-25702,2018-06-27,Shaily,Maharashtra,Mumbai,West,E006,Anjali,0,2018-06-27,5,2018-07-02,2018-07-02,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+103,B-25703,2018-06-28,Ekta,Madhya Pradesh,Indore,Central,E007,Vikram,1,2018-06-29,6,2018-07-05,2018-07-06,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+104,B-25704,2018-06-29,Riya,Maharashtra,Mumbai,West,E008,Neha,2,2018-07-01,7,2018-07-08,2018-07-10,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+105,B-25705,2018-06-30,Shweta,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-06-30,3,2018-07-03,2018-07-01,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+106,B-25706,2018-07-01,Swetlana,Goa,Goa,West,E002,Priya,1,2018-07-02,4,2018-07-06,2018-07-05,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+107,B-25707,2018-07-01,Shivani,Maharashtra,Mumbai,West,E003,Arjun,2,2018-07-03,5,2018-07-08,2018-07-08,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+108,B-25708,2018-07-01,Kishwar,Madhya Pradesh,Indore,Central,E004,Sneha,0,2018-07-01,6,2018-07-07,2018-07-08,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+109,B-25709,2018-07-01,Aakanksha,Madhya Pradesh,Indore,Central,E005,Kiran,1,2018-07-02,7,2018-07-09,2018-07-11,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+110,B-25710,2018-07-05,Megha,Maharashtra,Pune,West,E006,Anjali,2,2018-07-07,3,2018-07-10,2018-07-08,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+111,B-25711,2018-07-06,Sakshi,Madhya Pradesh,Bhopal,Central,E007,Vikram,0,2018-07-06,4,2018-07-10,2018-07-09,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+112,B-25712,2018-07-07,Adhvaita,Rajasthan,Jaipur,North,E008,Neha,1,2018-07-08,5,2018-07-13,2018-07-13,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+113,B-25713,2018-07-08,Raksha,West Bengal,Kolkata,East,E001,Rahul,2,2018-07-10,6,2018-07-16,2018-07-17,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+114,B-25714,2018-07-09,Stuti,Karnataka,Bangalore,South,E002,Priya,0,2018-07-09,7,2018-07-16,2018-07-18,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+115,B-25715,2018-07-10,Srishti,Jammu and Kashmir,Kashmir,North,E003,Arjun,1,2018-07-11,3,2018-07-14,2018-07-12,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+116,B-25716,2018-07-11,Surabhi,Tamil Nadu,Chennai,South,E004,Sneha,2,2018-07-13,4,2018-07-17,2018-07-16,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+117,B-25717,2018-07-12,Manshul,Uttar Pradesh,Lucknow,North,E005,Kiran,0,2018-07-12,5,2018-07-17,2018-07-17,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+118,B-25718,2018-07-12,Anjali,Maharashtra,Mumbai,West,E006,Anjali,1,2018-07-13,6,2018-07-19,2018-07-20,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+119,B-25719,2018-07-12,Rashmi,Madhya Pradesh,Indore,Central,E007,Vikram,2,2018-07-14,7,2018-07-21,2018-07-23,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+120,B-25720,2018-07-15,Namrata,Punjab,Chandigarh,North,E008,Neha,0,2018-07-15,3,2018-07-18,2018-07-16,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+121,B-25721,2018-07-16,Anchal,Haryana,Chandigarh,North,E001,Rahul,1,2018-07-17,4,2018-07-21,2018-07-20,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+122,B-25722,2018-07-17,Inderpreet,Himachal Pradesh,Simla,North,E002,Priya,2,2018-07-19,5,2018-07-24,2018-07-24,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+123,B-25723,2018-07-18,Wale,Maharashtra,Mumbai,West,E003,Arjun,0,2018-07-18,6,2018-07-24,2018-07-25,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+124,B-25724,2018-07-19,Sheetal,Madhya Pradesh,Indore,Central,E004,Sneha,1,2018-07-20,7,2018-07-27,2018-07-29,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+125,B-25725,2018-07-20,Anisha,Nagaland,Kohima,North-East,E005,Kiran,2,2018-07-22,3,2018-07-25,2018-07-23,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+126,B-25726,2018-07-21,Kiran,Maharashtra,Mumbai,West,E006,Anjali,0,2018-07-21,4,2018-07-25,2018-07-24,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+127,B-25727,2018-07-22,Turumella,Madhya Pradesh,Indore,Central,E007,Vikram,1,2018-07-23,5,2018-07-28,2018-07-28,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+128,B-25728,2018-07-22,Ameesha,Maharashtra,Pune,West,E008,Neha,2,2018-07-24,6,2018-07-30,2018-07-31,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+129,B-25729,2018-07-22,Madhulika,Madhya Pradesh,Bhopal,Central,E001,Rahul,0,2018-07-22,7,2018-07-29,2018-07-31,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+130,B-25730,2018-07-22,Rishabh,Rajasthan,Jaipur,North,E002,Priya,1,2018-07-23,3,2018-07-26,2018-07-24,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+131,B-25731,2018-07-26,Akash,West Bengal,Kolkata,East,E003,Arjun,2,2018-07-28,4,2018-08-01,2018-07-31,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+132,B-25732,2018-07-27,Anubhaw,Karnataka,Bangalore,South,E004,Sneha,0,2018-07-27,5,2018-08-01,2018-08-01,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+133,B-25733,2018-07-28,Dhirajendu,Maharashtra,Mumbai,West,E005,Kiran,1,2018-07-29,6,2018-08-04,2018-08-05,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+134,B-25734,2018-07-29,Pranav,Madhya Pradesh,Indore,Central,E006,Anjali,2,2018-07-31,7,2018-08-07,2018-08-09,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+135,B-25735,2018-07-30,Arindam,Uttar Pradesh,Lucknow,North,E007,Vikram,0,2018-07-30,3,2018-08-02,2018-07-31,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+136,B-25736,2018-07-31,Akshat,Maharashtra,Mumbai,West,E008,Neha,1,2018-08-01,4,2018-08-05,2018-08-04,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+137,B-25737,2018-08-01,Shubham,Madhya Pradesh,Indore,Central,E001,Rahul,2,2018-08-03,5,2018-08-08,2018-08-08,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+138,B-25738,2018-08-02,Ayush,Punjab,Chandigarh,North,E002,Priya,0,2018-08-02,6,2018-08-08,2018-08-09,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+139,B-25739,2018-08-03,Daksh,Haryana,Chandigarh,North,E003,Arjun,1,2018-08-04,7,2018-08-11,2018-08-13,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+140,B-25740,2018-08-03,Rane,Maharashtra,Mumbai,West,E004,Sneha,2,2018-08-05,3,2018-08-08,2018-08-06,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+141,B-25741,2018-08-03,Navdeep,Madhya Pradesh,Indore,Central,E005,Kiran,0,2018-08-03,4,2018-08-07,2018-08-06,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+142,B-25742,2018-08-03,Ashwin,Goa,Goa,West,E006,Anjali,1,2018-08-04,5,2018-08-09,2018-08-09,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+143,B-25743,2018-08-07,Aman,Nagaland,Kohima,North-East,E007,Vikram,2,2018-08-09,6,2018-08-15,2018-08-16,Delivered,North-East Hub,Courier F,No,No,7.0,1.0,No
+144,B-25744,2018-08-08,Devendra,Andhra Pradesh,Hyderabad,South,E008,Neha,0,2018-08-08,7,2018-08-15,2018-08-17,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+145,B-25745,2018-08-09,Kartik,Gujarat,Ahmedabad,West,E001,Rahul,1,2018-08-10,3,2018-08-13,2018-08-11,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+146,B-25746,2018-08-10,Shivam,Maharashtra,Pune,West,E002,Priya,2,2018-08-12,4,2018-08-16,2018-08-15,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+147,B-25747,2018-08-11,Harsh,Madhya Pradesh,Bhopal,Central,E003,Arjun,0,2018-08-11,5,2018-08-16,2018-08-16,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+148,B-25748,2018-08-12,Nitant,Rajasthan,Jaipur,North,E004,Sneha,1,2018-08-13,6,2018-08-19,2018-08-20,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+149,B-25749,2018-08-13,Ayush,Maharashtra,Mumbai,West,E005,Kiran,2,2018-08-15,7,2018-08-22,2018-08-24,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+150,B-25750,2018-08-14,Priyanshu,Madhya Pradesh,Indore,Central,E006,Anjali,0,2018-08-14,3,2018-08-17,2018-08-15,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+151,B-25751,2018-08-14,Nishant,Maharashtra,Mumbai,West,E007,Vikram,1,2018-08-15,4,2018-08-19,2018-08-18,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+152,B-25752,2018-08-14,Vaibhav,Madhya Pradesh,Indore,Central,E008,Neha,2,2018-08-16,5,2018-08-21,2018-08-21,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+153,B-25753,2018-08-17,Shivam,Uttar Pradesh,Lucknow,North,E001,Rahul,0,2018-08-17,6,2018-08-23,2018-08-24,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+154,B-25754,2018-08-18,Akshay,Bihar,Patna,East,E002,Priya,1,2018-08-19,7,2018-08-26,2018-08-28,Delivered,East Hub,Courier D,No,No,9.0,2.0,No
+155,B-25755,2018-08-19,Shourya,Kerala,Thiruvananthapuram,South,E003,Arjun,2,2018-08-21,3,2018-08-24,2018-08-22,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+156,B-25756,2018-08-20,Mohan,Maharashtra,Mumbai,West,E004,Sneha,0,2018-08-20,4,2018-08-24,2018-08-23,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+157,B-25757,2018-08-21,Mohit,Madhya Pradesh,Indore,Central,E005,Kiran,1,2018-08-22,5,2018-08-27,2018-08-27,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+158,B-25758,2018-08-22,Shubham,Himachal Pradesh,Simla,North,E006,Anjali,2,2018-08-24,6,2018-08-30,2018-08-31,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+159,B-25759,2018-08-23,Soumya,Sikkim,Gangtok,North-East,E007,Vikram,0,2018-08-23,7,2018-08-30,2018-09-01,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+160,B-25760,2018-08-24,Pooja,Goa,Goa,West,E008,Neha,1,2018-08-25,3,2018-08-28,2018-08-26,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+161,B-25761,2018-08-25,Surabhi,Maharashtra,Mumbai,West,E001,Rahul,2,2018-08-27,4,2018-08-31,2018-08-30,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+162,B-25762,2018-08-26,Anudeep,Madhya Pradesh,Indore,Central,E002,Priya,0,2018-08-26,5,2018-08-31,2018-08-31,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+163,B-25763,2018-08-27,Noshiba,Gujarat,Ahmedabad,West,E003,Arjun,1,2018-08-28,6,2018-09-03,2018-09-04,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+164,B-25764,2018-08-28,Sanjova,Maharashtra,Pune,West,E004,Sneha,2,2018-08-30,7,2018-09-06,2018-09-08,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+165,B-25765,2018-08-29,Meghana,Madhya Pradesh,Bhopal,Central,E005,Kiran,0,2018-08-29,3,2018-09-01,2018-08-30,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+166,B-25766,2018-08-30,Surabhi,Rajasthan,Jaipur,North,E006,Anjali,1,2018-08-31,4,2018-09-04,2018-09-03,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+167,B-25767,2018-08-31,Ashmeet,West Bengal,Kolkata,East,E007,Vikram,2,2018-09-02,5,2018-09-07,2018-09-07,Delivered,East Hub,Courier D,No,No,5.0,0.0,Yes
+168,B-25768,2018-09-01,Shreyoshe,Karnataka,Bangalore,South,E008,Neha,0,2018-09-01,6,2018-09-07,2018-09-08,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+169,B-25769,2018-09-02,Surbhi,Maharashtra,Mumbai,West,E001,Rahul,1,2018-09-03,7,2018-09-10,2018-09-12,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+170,B-25770,2018-09-02,Sakshi,Madhya Pradesh,Indore,Central,E002,Priya,2,2018-09-04,3,2018-09-07,2018-09-05,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+171,B-25771,2018-09-02,Vaibhavi,Uttar Pradesh,Lucknow,North,E003,Arjun,0,2018-09-02,4,2018-09-06,2018-09-05,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+172,B-25772,2018-09-02,Sanjana,Bihar,Patna,East,E004,Sneha,1,2018-09-03,5,2018-09-08,2018-09-08,Delivered,East Hub,Courier D,No,No,5.0,0.0,Yes
+173,B-25773,2018-09-06,Shreya,Kerala,Thiruvananthapuram,South,E005,Kiran,2,2018-09-08,6,2018-09-14,2018-09-15,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+174,B-25774,2018-09-07,Snehal,Punjab,Chandigarh,North,E006,Anjali,0,2018-09-07,7,2018-09-14,2018-09-16,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+175,B-25775,2018-09-08,Duhita,Haryana,Chandigarh,North,E007,Vikram,1,2018-09-09,3,2018-09-12,2018-09-10,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+176,B-25776,2018-09-09,Mousam,Maharashtra,Mumbai,West,E008,Neha,2,2018-09-11,4,2018-09-15,,Processing,West Hub,Courier A,No,No,,,
+177,B-25777,2018-09-10,Aditi,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-09-10,5,2018-09-15,,Processing,Central Hub,Courier B,No,No,,,
+178,B-25778,2018-09-11,Surabhi,Maharashtra,Mumbai,West,E002,Priya,1,2018-09-12,6,2018-09-18,,Processing,West Hub,Courier A,No,No,,,
+179,B-25779,2018-09-12,Savi,Madhya Pradesh,Indore,Central,E003,Arjun,2,2018-09-14,7,2018-09-21,,Processing,Central Hub,Courier B,No,No,,,
+180,B-25780,2018-09-13,Teena,Andhra Pradesh,Hyderabad,South,E004,Sneha,0,2018-09-13,3,2018-09-16,,Processing,South Hub,Courier E,No,No,,,
+181,B-25781,2018-09-14,Rutuja,Gujarat,Ahmedabad,West,E005,Kiran,1,2018-09-15,4,2018-09-19,,Processing,West Hub,Courier A,No,No,,,
+182,B-25782,2018-09-15,Aayushi,Maharashtra,Mumbai,West,E006,Anjali,2,2018-09-17,5,2018-09-22,,Processing,West Hub,Courier A,No,No,,,
+183,B-25783,2018-09-15,Shivangi,Madhya Pradesh,Indore,Central,E007,Vikram,0,2018-09-15,6,2018-09-21,,Processing,Central Hub,Courier B,No,No,,,
+184,B-25784,2018-09-15,Rohit,Rajasthan,Jaipur,North,E008,Neha,1,2018-09-16,7,2018-09-23,,Pending,North Hub,Courier C,No,No,,,
+185,B-25785,2018-09-15,Ayush,West Bengal,Kolkata,East,E001,Rahul,2,2018-09-17,3,2018-09-20,,Pending,East Hub,Courier D,No,No,,,
+186,B-25786,2018-09-19,Abhishek,Karnataka,Bangalore,South,E002,Priya,0,2018-09-19,4,2018-09-23,,Pending,South Hub,Courier E,No,No,,,
+187,B-25787,2018-09-20,Asish,Jammu and Kashmir,Kashmir,North,E003,Arjun,1,2018-09-21,5,2018-09-26,,Pending,North Hub,Courier C,No,No,,,
+188,B-25788,2018-09-21,Dinesh,Tamil Nadu,Chennai,South,E004,Sneha,2,2018-09-23,6,2018-09-29,,Pending,South Hub,Courier E,No,No,,,
+189,B-25789,2018-09-22,Akshay,Uttar Pradesh,Lucknow,North,E005,Kiran,0,2018-09-22,7,2018-09-29,,Pending,North Hub,Courier C,No,No,,,
+190,B-25790,2018-09-23,Sajal,Bihar,Patna,East,E006,Anjali,1,2018-09-24,3,2018-09-27,,Pending,East Hub,Courier D,No,No,,,
+191,B-25791,2018-09-24,Avish,Kerala,Thiruvananthapuram,South,E007,Vikram,2,2018-09-26,4,2018-09-30,,Cancelled,South Hub,Courier E,Yes,No,,,
+192,B-25792,2018-09-24,Abhishek,Maharashtra,Mumbai,West,E008,Neha,0,2018-09-24,5,2018-09-29,,Cancelled,West Hub,Courier A,Yes,No,,,
+193,B-25793,2018-09-24,Siddharth,Madhya Pradesh,Indore,Central,E001,Rahul,1,2018-09-25,6,2018-10-01,,Cancelled,Central Hub,Courier B,Yes,No,,,
+194,B-25794,2018-09-24,Aditya,Himachal Pradesh,Simla,North,E002,Priya,2,2018-09-26,7,2018-10-03,,Cancelled,North Hub,Courier C,Yes,No,,,
+195,B-25795,2018-09-24,Sukant,Sikkim,Gangtok,North-East,E003,Arjun,0,2018-09-24,3,2018-09-27,,Cancelled,North-East Hub,Courier F,Yes,No,,,
+196,B-25796,2018-09-24,Sukrith,Maharashtra,Mumbai,West,E004,Sneha,1,2018-09-25,4,2018-09-29,,Cancelled,West Hub,Courier A,Yes,No,,,
+197,B-25797,2018-09-30,Sauptik,Madhya Pradesh,Indore,Central,E005,Kiran,2,2018-10-02,5,2018-10-07,2018-10-07,Returned,Central Hub,Courier B,No,Yes,5.0,0.0,Yes
+198,B-25798,2018-10-01,Shishu,Andhra Pradesh,Hyderabad,South,E006,Anjali,0,2018-10-01,6,2018-10-07,2018-10-08,Returned,South Hub,Courier E,No,Yes,7.0,1.0,No
+199,B-25799,2018-10-01,Divyansh,Gujarat,Ahmedabad,West,E007,Vikram,1,2018-10-02,7,2018-10-09,2018-10-11,Returned,West Hub,Courier A,No,Yes,9.0,2.0,No
+200,B-25800,2018-10-01,Ishit,Maharashtra,Pune,West,E008,Neha,2,2018-10-03,3,2018-10-06,2018-10-04,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+201,B-25801,2018-10-01,Aryan,Madhya Pradesh,Bhopal,Central,E001,Rahul,0,2018-10-01,4,2018-10-05,2018-10-04,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+202,B-25802,2018-10-05,Yash,Maharashtra,Mumbai,West,E002,Priya,1,2018-10-06,5,2018-10-11,2018-10-11,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+203,B-25803,2018-10-05,Shivanshu,Madhya Pradesh,Indore,Central,E003,Arjun,2,2018-10-07,6,2018-10-13,2018-10-14,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+204,B-25804,2018-10-05,Sudheer,Karnataka,Bangalore,South,E004,Sneha,0,2018-10-05,7,2018-10-12,2018-10-14,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+205,B-25805,2018-10-05,Ankit,Maharashtra,Mumbai,West,E005,Kiran,1,2018-10-06,3,2018-10-09,2018-10-07,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+206,B-25806,2018-10-06,Dhanraj,Madhya Pradesh,Indore,Central,E006,Anjali,2,2018-10-08,4,2018-10-12,2018-10-11,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+207,B-25807,2018-10-07,Vipul,Uttar Pradesh,Lucknow,North,E007,Vikram,0,2018-10-07,5,2018-10-12,2018-10-12,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+208,B-25808,2018-10-08,Apsingekar,Bihar,Patna,East,E008,Neha,1,2018-10-09,6,2018-10-15,2018-10-16,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+209,B-25809,2018-10-09,Suman,Kerala,Thiruvananthapuram,South,E001,Rahul,2,2018-10-11,7,2018-10-18,2018-10-20,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+210,B-25810,2018-10-10,Nripraj,Punjab,Chandigarh,North,E002,Priya,0,2018-10-10,3,2018-10-13,2018-10-11,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+211,B-25811,2018-10-10,Utsav,Maharashtra,Mumbai,West,E003,Arjun,1,2018-10-11,4,2018-10-15,2018-10-14,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+212,B-25812,2018-10-10,Kshitij,Madhya Pradesh,Indore,Central,E004,Sneha,2,2018-10-12,5,2018-10-17,2018-10-17,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+213,B-25813,2018-10-10,Hrisheekesh,Maharashtra,Mumbai,West,E005,Kiran,0,2018-10-10,6,2018-10-16,2018-10-17,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+214,B-25814,2018-10-10,Swapnil,Madhya Pradesh,Indore,Central,E006,Anjali,1,2018-10-11,7,2018-10-18,2018-10-20,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+215,B-25815,2018-10-10,Harsh,Nagaland,Kohima,North-East,E007,Vikram,2,2018-10-12,3,2018-10-15,2018-10-13,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+216,B-25816,2018-10-12,Mane,Andhra Pradesh,Hyderabad,South,E008,Neha,0,2018-10-12,4,2018-10-16,2018-10-15,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+217,B-25817,2018-10-13,Praneet,Maharashtra,Mumbai,West,E001,Rahul,1,2018-10-14,5,2018-10-19,2018-10-19,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+218,B-25818,2018-10-14,Sandeep,Madhya Pradesh,Indore,Central,E002,Priya,2,2018-10-16,6,2018-10-22,2018-10-23,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+219,B-25819,2018-10-15,Ankur,Madhya Pradesh,Bhopal,Central,E003,Arjun,0,2018-10-15,7,2018-10-22,2018-10-24,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+220,B-25820,2018-10-16,Dheeraj,Rajasthan,Jaipur,North,E004,Sneha,1,2018-10-17,3,2018-10-20,2018-10-18,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+221,B-25821,2018-10-16,Ajay,West Bengal,Kolkata,East,E005,Kiran,2,2018-10-18,4,2018-10-22,2018-10-21,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+222,B-25822,2018-10-18,Tejas,Karnataka,Bangalore,South,E006,Anjali,0,2018-10-18,5,2018-10-23,2018-10-23,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+223,B-25823,2018-10-18,Rohan,Maharashtra,Mumbai,West,E007,Vikram,1,2018-10-19,6,2018-10-25,2018-10-26,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+224,B-25824,2018-10-20,Shyam,Madhya Pradesh,Indore,Central,E008,Neha,2,2018-10-22,7,2018-10-29,2018-10-31,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+225,B-25825,2018-10-21,Kartik,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-10-21,3,2018-10-24,2018-10-22,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+226,B-25826,2018-10-22,Tanushree,Maharashtra,Mumbai,West,E002,Priya,1,2018-10-23,4,2018-10-27,2018-10-26,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+227,B-25827,2018-10-23,Sheetal,Madhya Pradesh,Indore,Central,E003,Arjun,2,2018-10-25,5,2018-10-30,2018-10-30,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+228,B-25828,2018-10-24,Nikita,Punjab,Chandigarh,North,E004,Sneha,0,2018-10-24,6,2018-10-30,2018-10-31,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+229,B-25829,2018-10-25,Apoorva,Haryana,Chandigarh,North,E005,Kiran,1,2018-10-26,7,2018-11-02,2018-11-04,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+230,B-25830,2018-10-26,Aastha,Himachal Pradesh,Simla,North,E006,Anjali,2,2018-10-28,3,2018-10-31,2018-10-29,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+231,B-25831,2018-10-27,Mahima,Sikkim,Gangtok,North-East,E007,Vikram,0,2018-10-27,4,2018-10-31,2018-10-30,Delivered,North-East Hub,Courier F,No,No,3.0,0.0,Yes
+232,B-25832,2018-10-28,Harshita,Maharashtra,Mumbai,West,E008,Neha,1,2018-10-29,5,2018-11-03,2018-11-03,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+233,B-25833,2018-10-29,Krishna,Madhya Pradesh,Indore,Central,E001,Rahul,2,2018-10-31,6,2018-11-06,2018-11-07,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+234,B-25834,2018-10-29,Ananya,Andhra Pradesh,Hyderabad,South,E002,Priya,0,2018-10-29,7,2018-11-05,2018-11-07,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+235,B-25835,2018-10-29,Moumita,Gujarat,Ahmedabad,West,E003,Arjun,1,2018-10-30,3,2018-11-02,2018-10-31,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+236,B-25836,2018-10-29,Arti,Maharashtra,Pune,West,E004,Sneha,2,2018-10-31,4,2018-11-04,2018-11-03,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+237,B-25837,2018-10-29,Palak,Maharashtra,Mumbai,West,E005,Kiran,0,2018-10-29,5,2018-11-03,2018-11-03,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+238,B-25838,2018-10-29,Sanjana,Madhya Pradesh,Indore,Central,E006,Anjali,1,2018-10-30,6,2018-11-05,2018-11-06,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+239,B-25839,2018-10-30,Pranjali,West Bengal,Kolkata,East,E007,Vikram,2,2018-11-01,7,2018-11-08,2018-11-10,Delivered,East Hub,Courier D,No,No,9.0,2.0,No
+240,B-25840,2018-10-31,Sneha,Karnataka,Bangalore,South,E008,Neha,0,2018-10-31,3,2018-11-03,2018-11-01,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+241,B-25841,2018-11-01,Ashvini,Maharashtra,Mumbai,West,E001,Rahul,1,2018-11-02,4,2018-11-06,2018-11-05,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+242,B-25842,2018-11-02,Sheetal,Madhya Pradesh,Indore,Central,E002,Priya,2,2018-11-04,5,2018-11-09,2018-11-09,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+243,B-25843,2018-11-03,Mrunal,Maharashtra,Mumbai,West,E003,Arjun,0,2018-11-03,6,2018-11-09,2018-11-10,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+244,B-25844,2018-11-03,Swati,Madhya Pradesh,Indore,Central,E004,Sneha,1,2018-11-04,7,2018-11-11,2018-11-13,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+245,B-25845,2018-11-03,Snel,Kerala,Thiruvananthapuram,South,E005,Kiran,2,2018-11-05,3,2018-11-08,2018-11-06,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+246,B-25846,2018-11-03,Soodesh,Punjab,Chandigarh,North,E006,Anjali,0,2018-11-03,4,2018-11-07,2018-11-06,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+247,B-25847,2018-11-03,Aniket,Haryana,Chandigarh,North,E007,Vikram,1,2018-11-04,5,2018-11-09,2018-11-09,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+248,B-25848,2018-11-03,Rohan,Himachal Pradesh,Simla,North,E008,Neha,2,2018-11-05,6,2018-11-11,2018-11-12,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+249,B-25849,2018-11-04,K,Sikkim,Gangtok,North-East,E001,Rahul,0,2018-11-04,7,2018-11-11,2018-11-13,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+250,B-25850,2018-11-05,Abhishek,Goa,Goa,West,E002,Priya,1,2018-11-06,3,2018-11-09,2018-11-07,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+251,B-25851,2018-11-06,Kushal,Nagaland,Kohima,North-East,E003,Arjun,2,2018-11-08,4,2018-11-12,2018-11-11,Delivered,North-East Hub,Courier F,No,No,3.0,0.0,Yes
+252,B-25852,2018-11-07,Soumyabrata,Andhra Pradesh,Hyderabad,South,E004,Sneha,0,2018-11-07,5,2018-11-12,2018-11-12,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+253,B-25853,2018-11-08,Gaurav,Gujarat,Ahmedabad,West,E005,Kiran,1,2018-11-09,6,2018-11-15,2018-11-16,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+254,B-25854,2018-11-08,Shubham,Maharashtra,Pune,West,E006,Anjali,2,2018-11-10,7,2018-11-17,2018-11-19,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+255,B-25855,2018-11-08,Abhijeet,Madhya Pradesh,Bhopal,Central,E007,Vikram,0,2018-11-08,3,2018-11-11,2018-11-09,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+256,B-25856,2018-11-10,Abhijeet,Maharashtra,Mumbai,West,E008,Neha,1,2018-11-11,4,2018-11-15,2018-11-14,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+257,B-25857,2018-11-10,Anand,Madhya Pradesh,Indore,Central,E001,Rahul,2,2018-11-12,5,2018-11-17,2018-11-17,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+258,B-25858,2018-11-13,Swapnil,Maharashtra,Mumbai,West,E002,Priya,0,2018-11-13,6,2018-11-19,2018-11-20,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+259,B-25859,2018-11-14,Chikku,Madhya Pradesh,Indore,Central,E003,Arjun,1,2018-11-15,7,2018-11-22,2018-11-24,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+260,B-25860,2018-11-15,Akshay,Tamil Nadu,Chennai,South,E004,Sneha,2,2018-11-17,3,2018-11-20,2018-11-18,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+261,B-25861,2018-11-15,Aayush,Uttar Pradesh,Lucknow,North,E005,Kiran,0,2018-11-15,4,2018-11-19,2018-11-18,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+262,B-25862,2018-11-15,Amol,Bihar,Patna,East,E006,Anjali,1,2018-11-16,5,2018-11-21,2018-11-21,Delivered,East Hub,Courier D,No,No,5.0,0.0,Yes
+263,B-25863,2018-11-15,Manibalan,Kerala,Thiruvananthapuram,South,E007,Vikram,2,2018-11-17,6,2018-11-23,2018-11-24,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+264,B-25864,2018-11-15,Aromal,Maharashtra,Mumbai,West,E008,Neha,0,2018-11-15,7,2018-11-22,2018-11-24,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+265,B-25865,2018-11-15,Arun,Madhya Pradesh,Indore,Central,E001,Rahul,1,2018-11-16,3,2018-11-19,2018-11-17,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+266,B-25866,2018-11-16,Komal,Himachal Pradesh,Simla,North,E002,Priya,2,2018-11-18,4,2018-11-22,2018-11-21,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+267,B-25867,2018-11-17,Ankit,Sikkim,Gangtok,North-East,E003,Arjun,0,2018-11-17,5,2018-11-22,2018-11-22,Delivered,North-East Hub,Courier F,No,No,5.0,0.0,Yes
+268,B-25868,2018-11-18,Vikash,Goa,Goa,West,E004,Sneha,1,2018-11-19,6,2018-11-25,2018-11-26,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+269,B-25869,2018-11-19,Parakh,Nagaland,Kohima,North-East,E005,Kiran,2,2018-11-21,7,2018-11-28,2018-11-30,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+270,B-25870,2018-11-20,Pranav,Andhra Pradesh,Hyderabad,South,E006,Anjali,0,2018-11-20,3,2018-11-23,2018-11-21,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+271,B-25871,2018-11-21,Gunjal,Gujarat,Surat,West,E007,Vikram,1,2018-11-22,4,2018-11-26,2018-11-25,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+272,B-25872,2018-11-22,Saurabh,Maharashtra,Mumbai,West,E008,Neha,2,2018-11-24,5,2018-11-29,2018-11-29,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+273,B-25873,2018-11-23,Divyeta,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-11-23,6,2018-11-29,2018-11-30,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+274,B-25874,2018-11-24,Megha,Rajasthan,Udaipur,North,E002,Priya,1,2018-11-25,7,2018-12-02,2018-12-04,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+275,B-25875,2018-11-24,Divyeshkumar,Uttar Pradesh,Allahabad,North,E003,Arjun,2,2018-11-26,3,2018-11-29,2018-11-27,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+276,B-25876,2018-11-24,Bhosale,Punjab,Amritsar,North,E004,Sneha,0,2018-11-24,4,2018-11-28,,Processing,North Hub,Courier C,No,No,,,
+277,B-25877,2018-11-24,Dashyam,Gujarat,Surat,West,E005,Kiran,1,2018-11-25,5,2018-11-30,,Processing,West Hub,Courier A,No,No,,,
+278,B-25878,2018-11-24,Mrinal,Maharashtra,Mumbai,West,E006,Anjali,2,2018-11-26,6,2018-12-02,,Processing,West Hub,Courier A,No,No,,,
+279,B-25879,2018-11-24,Siddharth,Madhya Pradesh,Indore,Central,E007,Vikram,0,2018-11-24,7,2018-12-01,,Processing,Central Hub,Courier B,No,No,,,
+280,B-25880,2018-11-24,Apoorv,Rajasthan,Udaipur,North,E008,Neha,1,2018-11-25,3,2018-11-28,,Processing,North Hub,Courier C,No,No,,,
+281,B-25881,2018-11-25,Pooja,Uttar Pradesh,Allahabad,North,E001,Rahul,2,2018-11-27,4,2018-12-01,,Processing,North Hub,Courier C,No,No,,,
+282,B-25882,2018-11-26,Masurkar,Punjab,Amritsar,North,E002,Priya,0,2018-11-26,5,2018-12-01,,Processing,North Hub,Courier C,No,No,,,
+283,B-25883,2018-11-27,Saptadeep,Gujarat,Surat,West,E003,Arjun,1,2018-11-28,6,2018-12-04,,Processing,West Hub,Courier A,No,No,,,
+284,B-25884,2018-11-28,Sumeet,Maharashtra,Mumbai,West,E004,Sneha,2,2018-11-30,7,2018-12-07,,Pending,West Hub,Courier A,No,No,,,
+285,B-25885,2018-11-28,Shatayu,Madhya Pradesh,Indore,Central,E005,Kiran,0,2018-11-28,3,2018-12-01,,Pending,Central Hub,Courier B,No,No,,,
+286,B-25886,2018-11-28,Brijesh,Rajasthan,Udaipur,North,E006,Anjali,1,2018-11-29,4,2018-12-03,,Pending,North Hub,Courier C,No,No,,,
+287,B-25887,2018-12-01,Vedant,Uttar Pradesh,Allahabad,North,E007,Vikram,2,2018-12-03,5,2018-12-08,,Pending,North Hub,Courier C,No,No,,,
+288,B-25888,2018-12-02,Rohan,Punjab,Amritsar,North,E008,Neha,0,2018-12-02,6,2018-12-08,,Pending,North Hub,Courier C,No,No,,,
+289,B-25889,2018-12-03,Abhishek,Gujarat,Surat,West,E001,Rahul,1,2018-12-04,7,2018-12-11,,Pending,West Hub,Courier A,No,No,,,
+290,B-25890,2018-12-04,Divyansha,Maharashtra,Mumbai,West,E002,Priya,2,2018-12-06,3,2018-12-09,,Pending,West Hub,Courier A,No,No,,,
+291,B-25891,2018-12-04,Shivani,Madhya Pradesh,Indore,Central,E003,Arjun,0,2018-12-04,4,2018-12-08,,Cancelled,Central Hub,Courier B,Yes,No,,,
+292,B-25892,2018-12-04,Aditi,Rajasthan,Udaipur,North,E004,Sneha,1,2018-12-05,5,2018-12-10,,Cancelled,North Hub,Courier C,Yes,No,,,
+293,B-25893,2018-12-04,Aashna,Uttar Pradesh,Allahabad,North,E005,Kiran,2,2018-12-06,6,2018-12-12,,Cancelled,North Hub,Courier C,Yes,No,,,
+294,B-25894,2018-12-04,Monu,Punjab,Amritsar,North,E006,Anjali,0,2018-12-04,7,2018-12-11,,Cancelled,North Hub,Courier C,Yes,No,,,
+295,B-25895,2018-12-04,Sathya,Gujarat,Surat,West,E007,Vikram,1,2018-12-05,3,2018-12-08,,Cancelled,West Hub,Courier A,Yes,No,,,
+296,B-25896,2018-12-05,Aman,Maharashtra,Mumbai,West,E008,Neha,2,2018-12-07,4,2018-12-11,,Cancelled,West Hub,Courier A,Yes,No,,,
+297,B-25897,2018-12-06,Rohan,Madhya Pradesh,Indore,Central,E001,Rahul,0,2018-12-06,5,2018-12-11,2018-12-11,Returned,Central Hub,Courier B,No,Yes,5.0,0.0,Yes
+298,B-25898,2018-12-07,Abhishek,Rajasthan,Udaipur,North,E002,Priya,1,2018-12-08,6,2018-12-14,2018-12-15,Returned,North Hub,Courier C,No,Yes,7.0,1.0,No
+299,B-25899,2018-12-08,Aishwarya,Uttar Pradesh,Allahabad,North,E003,Arjun,2,2018-12-10,7,2018-12-17,2018-12-19,Returned,North Hub,Courier C,No,Yes,9.0,2.0,No
+300,B-25900,2018-12-09,Anand,Punjab,Amritsar,North,E004,Sneha,0,2018-12-09,3,2018-12-12,2018-12-10,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+301,B-25901,2018-12-10,Suraj,Gujarat,Surat,West,E005,Kiran,1,2018-12-11,4,2018-12-15,2018-12-14,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+302,B-25902,2018-12-10,Ishpreet,Maharashtra,Mumbai,West,E006,Anjali,2,2018-12-12,5,2018-12-17,2018-12-17,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+303,B-25903,2018-12-10,Amlan,Madhya Pradesh,Indore,Central,E007,Vikram,0,2018-12-10,6,2018-12-16,2018-12-17,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+304,B-25904,2018-12-10,Swapnil,Delhi,Delhi,North,E008,Neha,1,2018-12-11,7,2018-12-18,2018-12-20,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+305,B-25905,2018-12-11,Bhargav,Madhya Pradesh,Delhi,Central,E001,Rahul,2,2018-12-13,3,2018-12-16,2018-12-14,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+306,B-25906,2018-12-11,Abhijit,Delhi,Delhi,North,E002,Priya,0,2018-12-11,4,2018-12-15,2018-12-14,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+307,B-25907,2018-12-11,Jaydeep,Madhya Pradesh,Bhopal,Central,E003,Arjun,1,2018-12-12,5,2018-12-17,2018-12-17,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+308,B-25908,2018-12-12,Pradeep,Delhi,Delhi,North,E004,Sneha,2,2018-12-14,6,2018-12-20,2018-12-21,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+309,B-25909,2018-12-13,Sujay,Madhya Pradesh,Delhi,Central,E005,Kiran,0,2018-12-13,7,2018-12-20,2018-12-22,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+310,B-25910,2018-12-14,Jay,Delhi,Delhi,North,E006,Anjali,1,2018-12-15,3,2018-12-18,2018-12-16,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+311,B-25911,2018-12-15,Phalguni,Madhya Pradesh,Bhopal,Central,E007,Vikram,2,2018-12-17,4,2018-12-21,2018-12-20,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+312,B-25912,2018-12-16,Preksha,Delhi,Delhi,North,E008,Neha,0,2018-12-16,5,2018-12-21,2018-12-21,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+313,B-25913,2018-12-17,Geetanjali,Madhya Pradesh,Delhi,Central,E001,Rahul,1,2018-12-18,6,2018-12-24,2018-12-25,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+314,B-25914,2018-12-18,Kajal,Delhi,Delhi,North,E002,Priya,2,2018-12-20,7,2018-12-27,2018-12-29,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+315,B-25915,2018-12-19,Sukruta,Punjab,Amritsar,North,E003,Arjun,0,2018-12-19,3,2018-12-22,2018-12-20,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+316,B-25916,2018-12-20,Utkarsh,Gujarat,Surat,West,E004,Sneha,1,2018-12-21,4,2018-12-25,2018-12-24,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+317,B-25917,2018-12-21,Sanjay,Maharashtra,Mumbai,West,E005,Kiran,2,2018-12-23,5,2018-12-28,2018-12-28,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+318,B-25918,2018-12-22,Karandeep,Madhya Pradesh,Indore,Central,E006,Anjali,0,2018-12-22,6,2018-12-28,2018-12-29,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+319,B-25919,2018-12-23,Neha,Rajasthan,Udaipur,North,E007,Vikram,1,2018-12-24,7,2018-12-31,2019-01-02,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+320,B-25920,2018-12-24,Jayanti,Uttar Pradesh,Allahabad,North,E008,Neha,2,2018-12-26,3,2018-12-29,2018-12-27,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+321,B-25921,2018-12-25,Sandra,Punjab,Amritsar,North,E001,Rahul,0,2018-12-25,4,2018-12-29,2018-12-28,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+322,B-25922,2018-12-26,Akshata,Gujarat,Surat,West,E002,Priya,1,2018-12-27,5,2019-01-01,2019-01-01,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+323,B-25923,2018-12-27,Vishakha,Maharashtra,Mumbai,West,E003,Arjun,2,2018-12-29,6,2019-01-04,2019-01-05,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+324,B-25924,2018-12-28,Prajakta,Karnataka,Bangalore,South,E004,Sneha,0,2018-12-28,7,2019-01-04,2019-01-06,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+325,B-25925,2018-12-29,Shruti,Maharashtra,Mumbai,West,E005,Kiran,1,2018-12-30,3,2019-01-02,2018-12-31,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+326,B-25926,2018-12-30,Dipali,Madhya Pradesh,Indore,Central,E006,Anjali,2,2019-01-01,4,2019-01-05,2019-01-04,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+327,B-25927,2018-12-31,Shreya,Uttar Pradesh,Lucknow,North,E007,Vikram,0,2018-12-31,5,2019-01-05,2019-01-05,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+328,B-25928,2019-01-01,Smriti,Bihar,Patna,East,E008,Neha,1,2019-01-02,6,2019-01-08,2019-01-09,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+329,B-25929,2019-01-02,Girase,Kerala,Thiruvananthapuram,South,E001,Rahul,2,2019-01-04,7,2019-01-11,2019-01-13,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+330,B-25930,2019-01-03,Monica,Punjab,Chandigarh,North,E002,Priya,0,2019-01-03,3,2019-01-06,2019-01-04,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+331,B-25931,2019-01-04,Sidharth,Maharashtra,Mumbai,West,E003,Arjun,1,2019-01-05,4,2019-01-09,2019-01-08,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+332,B-25932,2019-01-04,Bhutekar,Madhya Pradesh,Indore,Central,E004,Sneha,2,2019-01-06,5,2019-01-11,2019-01-11,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+333,B-25933,2019-01-04,Shikhar,Maharashtra,Mumbai,West,E005,Kiran,0,2019-01-04,6,2019-01-10,2019-01-11,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+334,B-25934,2019-01-04,Rahul,Madhya Pradesh,Indore,Central,E006,Anjali,1,2019-01-05,7,2019-01-12,2019-01-14,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+335,B-25935,2019-01-04,Sudhir,Nagaland,Kohima,North-East,E007,Vikram,2,2019-01-06,3,2019-01-09,2019-01-07,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+336,B-25936,2019-01-05,Nikhil,Punjab,Chandigarh,North,E008,Neha,0,2019-01-05,4,2019-01-09,2019-01-08,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+337,B-25937,2019-01-05,Ankit,Haryana,Chandigarh,North,E001,Rahul,1,2019-01-06,5,2019-01-11,2019-01-11,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+338,B-25938,2019-01-05,Shikhar,Himachal Pradesh,Simla,North,E002,Priya,2,2019-01-07,6,2019-01-13,2019-01-14,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+339,B-25939,2019-01-05,Vineet,Sikkim,Gangtok,North-East,E003,Arjun,0,2019-01-05,7,2019-01-12,2019-01-14,Delivered,North-East Hub,Courier F,No,No,9.0,2.0,No
+340,B-25940,2019-01-06,Vivek,Goa,Goa,West,E004,Sneha,1,2019-01-07,3,2019-01-10,2019-01-08,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+341,B-25941,2019-01-07,Jaideep,Nagaland,Kohima,North-East,E005,Kiran,2,2019-01-09,4,2019-01-13,2019-01-12,Delivered,North-East Hub,Courier F,No,No,3.0,0.0,Yes
+342,B-25942,2019-01-08,Ankur,Andhra Pradesh,Hyderabad,South,E006,Anjali,0,2019-01-08,5,2019-01-13,2019-01-13,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+343,B-25943,2019-01-09,Shardul,Gujarat,Ahmedabad,West,E007,Vikram,1,2019-01-10,6,2019-01-16,2019-01-17,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+344,B-25944,2019-01-10,Syed,Maharashtra,Pune,West,E008,Neha,2,2019-01-12,7,2019-01-19,2019-01-21,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+345,B-25945,2019-01-11,Mhatre,Madhya Pradesh,Indore,Central,E001,Rahul,0,2019-01-11,3,2019-01-14,2019-01-12,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+346,B-25946,2019-01-12,Saurabh,Andhra Pradesh,Hyderabad,South,E002,Priya,1,2019-01-13,4,2019-01-17,2019-01-16,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+347,B-25947,2019-01-13,Chetan,Gujarat,Ahmedabad,West,E003,Arjun,2,2019-01-15,5,2019-01-20,2019-01-20,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+348,B-25948,2019-01-13,Mukund,Maharashtra,Pune,West,E004,Sneha,0,2019-01-13,6,2019-01-19,2019-01-20,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+349,B-25949,2019-01-13,Shantanu,Maharashtra,Mumbai,West,E005,Kiran,1,2019-01-14,7,2019-01-21,2019-01-23,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+350,B-25950,2019-01-13,Shruti,Madhya Pradesh,Indore,Central,E006,Anjali,2,2019-01-15,3,2019-01-18,2019-01-16,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+351,B-25951,2019-01-13,Jesal,West Bengal,Kolkata,East,E007,Vikram,0,2019-01-13,4,2019-01-17,2019-01-16,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+352,B-25952,2019-01-13,Priyanka,Madhya Pradesh,Indore,Central,E008,Neha,1,2019-01-14,5,2019-01-19,2019-01-19,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+353,B-25953,2019-01-14,Krutika,Andhra Pradesh,Hyderabad,South,E001,Rahul,2,2019-01-16,6,2019-01-22,2019-01-23,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+354,B-25954,2019-01-14,Trupti,Gujarat,Ahmedabad,West,E002,Priya,0,2019-01-14,7,2019-01-21,2019-01-23,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+355,B-25955,2019-01-16,Soumya,Maharashtra,Pune,West,E003,Arjun,1,2019-01-17,3,2019-01-20,2019-01-18,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+356,B-25956,2019-01-17,Shreya,Maharashtra,Mumbai,West,E004,Sneha,2,2019-01-19,4,2019-01-23,2019-01-22,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+357,B-25957,2019-01-18,Mahima,Madhya Pradesh,Indore,Central,E005,Kiran,0,2019-01-18,5,2019-01-23,2019-01-23,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+358,B-25958,2019-01-18,Aparajita,West Bengal,Kolkata,East,E006,Anjali,1,2019-01-19,6,2019-01-25,2019-01-26,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+359,B-25959,2019-01-18,Muskan,Madhya Pradesh,Indore,Central,E007,Vikram,2,2019-01-20,7,2019-01-27,2019-01-29,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+360,B-25960,2019-01-18,Shreya,Andhra Pradesh,Hyderabad,South,E008,Neha,0,2019-01-18,3,2019-01-21,2019-01-19,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+361,B-25961,2019-01-18,Surbhi,Gujarat,Ahmedabad,West,E001,Rahul,1,2019-01-19,4,2019-01-23,2019-01-22,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+362,B-25962,2019-01-19,Tejeswini,Maharashtra,Pune,West,E002,Priya,2,2019-01-21,5,2019-01-26,2019-01-26,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+363,B-25963,2019-01-19,Pratiksha,Maharashtra,Mumbai,West,E003,Arjun,0,2019-01-19,6,2019-01-25,2019-01-26,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+364,B-25964,2019-01-20,Oshin,Madhya Pradesh,Indore,Central,E004,Sneha,1,2019-01-21,7,2019-01-28,2019-01-30,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+365,B-25965,2019-01-21,Saloni,West Bengal,Kolkata,East,E005,Kiran,2,2019-01-23,3,2019-01-26,2019-01-24,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+366,B-25966,2019-01-21,Soumya,Rajasthan,Udaipur,North,E006,Anjali,0,2019-01-21,4,2019-01-25,2019-01-24,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+367,B-25967,2019-01-21,Komal,Uttar Pradesh,Allahabad,North,E007,Vikram,1,2019-01-22,5,2019-01-27,2019-01-27,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+368,B-25968,2019-01-21,Paromita,Punjab,Amritsar,North,E008,Neha,2,2019-01-23,6,2019-01-29,2019-01-30,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+369,B-25969,2019-01-21,Shreyshi,Gujarat,Surat,West,E001,Rahul,0,2019-01-21,7,2019-01-28,2019-01-30,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+370,B-25970,2019-01-22,Rhea,Maharashtra,Mumbai,West,E002,Priya,1,2019-01-23,3,2019-01-26,2019-01-24,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+371,B-25971,2019-01-22,Mitali,Madhya Pradesh,Indore,Central,E003,Arjun,2,2019-01-24,4,2019-01-28,2019-01-27,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+372,B-25972,2019-01-23,Jesslyn,Rajasthan,Udaipur,North,E004,Sneha,0,2019-01-23,5,2019-01-28,2019-01-28,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+373,B-25973,2019-01-24,Seema,Uttar Pradesh,Allahabad,North,E005,Kiran,1,2019-01-25,6,2019-01-31,2019-02-01,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+374,B-25974,2019-01-25,Manisha,Rajasthan,Udaipur,North,E006,Anjali,2,2019-01-27,7,2019-02-03,2019-02-05,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+375,B-25975,2019-01-25,Priyanka,Uttar Pradesh,Allahabad,North,E007,Vikram,0,2019-01-25,3,2019-01-28,2019-01-26,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+376,B-25976,2019-01-25,Piyam,Punjab,Amritsar,North,E008,Neha,1,2019-01-26,4,2019-01-30,,Processing,North Hub,Courier C,No,No,,,
+377,B-25977,2019-01-27,Aayushi,Gujarat,Surat,West,E001,Rahul,2,2019-01-29,5,2019-02-03,,Processing,West Hub,Courier A,No,No,,,
+378,B-25978,2019-01-27,Parin,Maharashtra,Mumbai,West,E002,Priya,0,2019-01-27,6,2019-02-02,,Processing,West Hub,Courier A,No,No,,,
+379,B-25979,2019-01-27,Shivangi,Madhya Pradesh,Indore,Central,E003,Arjun,1,2019-01-28,7,2019-02-04,,Processing,Central Hub,Courier B,No,No,,,
+380,B-25980,2019-01-27,Shweta,Rajasthan,Udaipur,North,E004,Sneha,2,2019-01-29,3,2019-02-01,,Processing,North Hub,Courier C,No,No,,,
+381,B-25981,2019-01-28,Amruta,Delhi,Delhi,North,E005,Kiran,0,2019-01-28,4,2019-02-01,,Processing,North Hub,Courier C,No,No,,,
+382,B-25982,2019-01-29,Hemangi,Delhi,Delhi,North,E006,Anjali,1,2019-01-30,5,2019-02-04,,Processing,North Hub,Courier C,No,No,,,
+383,B-25983,2019-01-30,Atul,Delhi,Delhi,North,E007,Vikram,2,2019-02-01,6,2019-02-07,,Processing,North Hub,Courier C,No,No,,,
+384,B-25984,2019-01-30,Kajal,Delhi,Delhi,North,E008,Neha,0,2019-01-30,7,2019-02-06,,Pending,North Hub,Courier C,No,No,,,
+385,B-25985,2019-01-31,Ginny,Madhya Pradesh,Indore,Central,E001,Rahul,1,2019-02-01,3,2019-02-04,,Pending,Central Hub,Courier B,No,No,,,
+386,B-25986,2019-01-31,Shweta,Rajasthan,Udaipur,North,E002,Priya,2,2019-02-02,4,2019-02-06,,Pending,North Hub,Courier C,No,No,,,
+387,B-25987,2019-01-31,Manjiri,Delhi,Delhi,North,E003,Arjun,0,2019-01-31,5,2019-02-05,,Pending,North Hub,Courier C,No,No,,,
+388,B-25988,2019-01-31,Nirja,Delhi,Delhi,North,E004,Sneha,1,2019-02-01,6,2019-02-07,,Pending,North Hub,Courier C,No,No,,,
+389,B-25989,2019-02-01,Anjali,Delhi,Delhi,North,E005,Kiran,2,2019-02-03,7,2019-02-10,,Pending,North Hub,Courier C,No,No,,,
+390,B-25990,2019-02-02,Mugdha,Delhi,Delhi,North,E006,Anjali,0,2019-02-02,3,2019-02-05,,Pending,North Hub,Courier C,No,No,,,
+391,B-25991,2019-02-03,Mansi,Madhya Pradesh,Indore,Central,E007,Vikram,1,2019-02-04,4,2019-02-08,,Cancelled,Central Hub,Courier B,Yes,No,,,
+392,B-25992,2019-02-03,Gaurav,Rajasthan,Udaipur,North,E008,Neha,2,2019-02-05,5,2019-02-10,,Cancelled,North Hub,Courier C,Yes,No,,,
+393,B-25993,2019-02-03,Harshal,Delhi,Delhi,North,E001,Rahul,0,2019-02-03,6,2019-02-09,,Cancelled,North Hub,Courier C,Yes,No,,,
+394,B-25994,2019-02-03,Omkar,Delhi,Delhi,North,E002,Priya,1,2019-02-04,7,2019-02-11,,Cancelled,North Hub,Courier C,Yes,No,,,
+395,B-25995,2019-02-04,Yohann,Delhi,Delhi,North,E003,Arjun,2,2019-02-06,3,2019-02-09,,Cancelled,North Hub,Courier C,Yes,No,,,
+396,B-25996,2019-02-04,Prashant,Delhi,Delhi,North,E004,Sneha,0,2019-02-04,4,2019-02-08,,Cancelled,North Hub,Courier C,Yes,No,,,
+397,B-25997,2019-02-04,Yogesh,Madhya Pradesh,Indore,Central,E005,Kiran,1,2019-02-05,5,2019-02-10,2019-02-10,Returned,Central Hub,Courier B,No,Yes,5.0,0.0,Yes
+398,B-25998,2019-02-04,Anmol,Rajasthan,Udaipur,North,E006,Anjali,2,2019-02-06,6,2019-02-12,2019-02-13,Returned,North Hub,Courier C,No,Yes,7.0,1.0,No
+399,B-25999,2019-02-05,Diwakar,Delhi,Delhi,North,E007,Vikram,0,2019-02-05,7,2019-02-12,2019-02-14,Returned,North Hub,Courier C,No,Yes,9.0,2.0,No
+400,B-26000,2019-02-06,Shubham,Delhi,Delhi,North,E008,Neha,1,2019-02-07,3,2019-02-10,2019-02-08,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+401,B-26001,2019-02-07,Patil,Delhi,Delhi,North,E001,Rahul,2,2019-02-09,4,2019-02-13,2019-02-12,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+402,B-26002,2019-02-08,Harsh,Delhi,Delhi,North,E002,Priya,0,2019-02-08,5,2019-02-13,2019-02-13,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+403,B-26003,2019-02-08,Hitesh,Madhya Pradesh,Bhopal,Central,E003,Arjun,1,2019-02-09,6,2019-02-15,2019-02-16,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+404,B-26004,2019-02-08,Nandita,Rajasthan,Jaipur,North,E004,Sneha,2,2019-02-10,7,2019-02-17,2019-02-19,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+405,B-26005,2019-02-08,Parnavi,West Bengal,Kolkata,East,E005,Kiran,0,2019-02-08,3,2019-02-11,2019-02-09,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+406,B-26006,2019-02-09,Arpita,Karnataka,Bangalore,South,E006,Anjali,1,2019-02-10,4,2019-02-14,2019-02-13,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+407,B-26007,2019-02-09,Shubham,Jammu and Kashmir,Kashmir,North,E007,Vikram,2,2019-02-11,5,2019-02-16,2019-02-16,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+408,B-26008,2019-02-09,Kalyani,Tamil Nadu,Chennai,South,E008,Neha,0,2019-02-09,6,2019-02-15,2019-02-16,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+409,B-26009,2019-02-10,Komal,Uttar Pradesh,Lucknow,North,E001,Rahul,1,2019-02-11,7,2019-02-18,2019-02-20,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+410,B-26010,2019-02-11,Kartikay,Bihar,Patna,East,E002,Priya,2,2019-02-13,3,2019-02-16,2019-02-14,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+411,B-26011,2019-02-12,Bharat,Gujarat,Ahmedabad,West,E003,Arjun,0,2019-02-12,4,2019-02-16,2019-02-15,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+412,B-26012,2019-02-13,Pearl,Maharashtra,Pune,West,E004,Sneha,1,2019-02-14,5,2019-02-19,2019-02-19,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+413,B-26013,2019-02-13,Jahan,Madhya Pradesh,Bhopal,Central,E005,Kiran,2,2019-02-15,6,2019-02-21,2019-02-22,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+414,B-26014,2019-02-13,Divsha,Rajasthan,Jaipur,North,E006,Anjali,0,2019-02-13,7,2019-02-20,2019-02-22,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+415,B-26015,2019-02-14,Kasheen,West Bengal,Kolkata,East,E007,Vikram,1,2019-02-15,3,2019-02-18,2019-02-16,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+416,B-26016,2019-02-14,Hazel,Karnataka,Bangalore,South,E008,Neha,2,2019-02-16,4,2019-02-20,2019-02-19,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+417,B-26017,2019-02-14,Sonakshi,Jammu and Kashmir,Kashmir,North,E001,Rahul,0,2019-02-14,5,2019-02-19,2019-02-19,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+418,B-26018,2019-02-14,Aarushi,Tamil Nadu,Chennai,South,E002,Priya,1,2019-02-15,6,2019-02-21,2019-02-22,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+419,B-26019,2019-02-15,Jitesh,Uttar Pradesh,Lucknow,North,E003,Arjun,2,2019-02-17,7,2019-02-24,2019-02-26,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+420,B-26020,2019-02-16,Yogesh,Bihar,Patna,East,E004,Sneha,0,2019-02-16,3,2019-02-19,2019-02-17,Delivered,East Hub,Courier D,No,No,1.0,0.0,Yes
+421,B-26021,2019-02-17,Anita,Kerala,Thiruvananthapuram,South,E005,Kiran,1,2019-02-18,4,2019-02-22,2019-02-21,Delivered,South Hub,Courier E,No,No,3.0,0.0,Yes
+422,B-26022,2019-02-18,Shrichand,Punjab,Chandigarh,North,E006,Anjali,2,2019-02-20,5,2019-02-25,2019-02-25,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+423,B-26023,2019-02-19,Mukesh,Haryana,Chandigarh,North,E007,Vikram,0,2019-02-19,6,2019-02-25,2019-02-26,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+424,B-26024,2019-02-19,Vandana,Himachal Pradesh,Simla,North,E008,Neha,1,2019-02-20,7,2019-02-27,2019-03-01,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+425,B-26025,2019-02-19,Bhavna,Sikkim,Gangtok,North-East,E001,Rahul,2,2019-02-21,3,2019-02-24,2019-02-22,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+426,B-26026,2019-02-19,Kanak,Goa,Goa,West,E002,Priya,0,2019-02-19,4,2019-02-23,2019-02-22,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+427,B-26027,2019-02-20,Sagar,Nagaland,Kohima,North-East,E003,Arjun,1,2019-02-21,5,2019-02-26,2019-02-26,Delivered,North-East Hub,Courier F,No,No,5.0,0.0,Yes
+428,B-26028,2019-02-20,Manju,Andhra Pradesh,Hyderabad,South,E004,Sneha,2,2019-02-22,6,2019-02-28,2019-03-01,Delivered,South Hub,Courier E,No,No,7.0,1.0,No
+429,B-26029,2019-02-20,Ramesh,Gujarat,Ahmedabad,West,E005,Kiran,0,2019-02-20,7,2019-02-27,2019-03-01,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+430,B-26030,2019-02-21,Sarita,Maharashtra,Pune,West,E006,Anjali,1,2019-02-22,3,2019-02-25,2019-02-23,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+431,B-26031,2019-02-22,Deepak,Madhya Pradesh,Bhopal,Central,E007,Vikram,2,2019-02-24,4,2019-02-28,2019-02-27,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+432,B-26032,2019-02-22,Monisha,Rajasthan,Jaipur,North,E008,Neha,0,2019-02-22,5,2019-02-27,2019-02-27,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+433,B-26033,2019-02-22,Atharv,West Bengal,Kolkata,East,E001,Rahul,1,2019-02-23,6,2019-03-01,2019-03-02,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+434,B-26034,2019-02-23,Vini,Karnataka,Bangalore,South,E002,Priya,2,2019-02-25,7,2019-03-04,2019-03-06,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+435,B-26035,2019-02-23,Pinky,Jammu and Kashmir,Kashmir,North,E003,Arjun,0,2019-02-23,3,2019-02-26,2019-02-24,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+436,B-26036,2019-02-23,Bhishm,Maharashtra,Mumbai,West,E004,Sneha,1,2019-02-24,4,2019-02-28,2019-02-27,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+437,B-26037,2019-02-23,Hitika,Madhya Pradesh,Indore,Central,E005,Kiran,2,2019-02-25,5,2019-03-02,2019-03-02,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+438,B-26038,2019-02-24,Pooja,Bihar,Patna,East,E006,Anjali,0,2019-02-24,6,2019-03-02,2019-03-03,Delivered,East Hub,Courier D,No,No,7.0,1.0,No
+439,B-26039,2019-02-25,Hemant,Kerala,Thiruvananthapuram,South,E007,Vikram,1,2019-02-26,7,2019-03-05,2019-03-07,Delivered,South Hub,Courier E,No,No,9.0,2.0,No
+440,B-26040,2019-02-26,Sahil,Punjab,Chandigarh,North,E008,Neha,2,2019-02-28,3,2019-03-03,2019-03-01,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+441,B-26041,2019-02-27,Ritu,Haryana,Chandigarh,North,E001,Rahul,0,2019-02-27,4,2019-03-03,2019-03-02,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+442,B-26042,2019-02-28,Manish,Himachal Pradesh,Simla,North,E002,Priya,1,2019-03-01,5,2019-03-06,2019-03-06,Delivered,North Hub,Courier C,No,No,5.0,0.0,Yes
+443,B-26043,2019-03-01,Amit,Sikkim,Gangtok,North-East,E003,Arjun,2,2019-03-03,6,2019-03-09,2019-03-10,Delivered,North-East Hub,Courier F,No,No,7.0,1.0,No
+444,B-26044,2019-03-02,Sanjay,Goa,Goa,West,E004,Sneha,0,2019-03-02,7,2019-03-09,2019-03-11,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+445,B-26045,2019-03-03,Nidhi,Nagaland,Kohima,North-East,E005,Kiran,1,2019-03-04,3,2019-03-07,2019-03-05,Delivered,North-East Hub,Courier F,No,No,1.0,0.0,Yes
+446,B-26046,2019-03-04,Nishi,Maharashtra,Mumbai,West,E006,Anjali,2,2019-03-06,4,2019-03-10,2019-03-09,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+447,B-26047,2019-03-04,Ashmi,Madhya Pradesh,Indore,Central,E007,Vikram,0,2019-03-04,5,2019-03-09,2019-03-09,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+448,B-26048,2019-03-04,Parth,Maharashtra,Pune,West,E008,Neha,1,2019-03-05,6,2019-03-11,2019-03-12,Delivered,West Hub,Courier A,No,No,7.0,1.0,No
+449,B-26049,2019-03-05,Lisha,Madhya Pradesh,Bhopal,Central,E001,Rahul,2,2019-03-07,7,2019-03-14,2019-03-16,Delivered,Central Hub,Courier B,No,No,9.0,2.0,No
+450,B-26050,2019-03-06,Paridhi,Rajasthan,Jaipur,North,E002,Priya,0,2019-03-06,3,2019-03-09,2019-03-07,Delivered,North Hub,Courier C,No,No,1.0,0.0,Yes
+451,B-26051,2019-03-07,Parishi,West Bengal,Kolkata,East,E003,Arjun,1,2019-03-08,4,2019-03-12,2019-03-11,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+452,B-26052,2019-03-08,Ajay,Karnataka,Bangalore,South,E004,Sneha,2,2019-03-10,5,2019-03-15,2019-03-15,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+453,B-26053,2019-03-09,Kirti,Jammu and Kashmir,Kashmir,North,E005,Kiran,0,2019-03-09,6,2019-03-15,2019-03-16,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+454,B-26054,2019-03-10,Mayank,Maharashtra,Mumbai,West,E006,Anjali,1,2019-03-11,7,2019-03-18,2019-03-20,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+455,B-26055,2019-03-10,Yaanvi,Madhya Pradesh,Indore,Central,E007,Vikram,2,2019-03-12,3,2019-03-15,2019-03-13,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+456,B-26056,2019-03-10,Sonal,Bihar,Patna,East,E008,Neha,0,2019-03-10,4,2019-03-14,2019-03-13,Delivered,East Hub,Courier D,No,No,3.0,0.0,Yes
+457,B-26057,2019-03-10,Sharda,Kerala,Thiruvananthapuram,South,E001,Rahul,1,2019-03-11,5,2019-03-16,2019-03-16,Delivered,South Hub,Courier E,No,No,5.0,0.0,Yes
+458,B-26058,2019-03-11,Aditya,Punjab,Chandigarh,North,E002,Priya,2,2019-03-13,6,2019-03-19,2019-03-20,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+459,B-26059,2019-03-12,Rachna,Haryana,Chandigarh,North,E003,Arjun,0,2019-03-12,7,2019-03-19,2019-03-21,Delivered,North Hub,Courier C,No,No,9.0,2.0,No
+460,B-26060,2019-03-13,Chirag,Maharashtra,Mumbai,West,E004,Sneha,1,2019-03-14,3,2019-03-17,2019-03-15,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+461,B-26061,2019-03-14,Anurag,Madhya Pradesh,Indore,Central,E005,Kiran,2,2019-03-16,4,2019-03-20,2019-03-19,Delivered,Central Hub,Courier B,No,No,3.0,0.0,Yes
+462,B-26062,2019-03-15,Tushina,Goa,Goa,West,E006,Anjali,0,2019-03-15,5,2019-03-20,2019-03-20,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+463,B-26063,2019-03-15,Farah,Nagaland,Kohima,North-East,E007,Vikram,1,2019-03-16,6,2019-03-22,2019-03-23,Delivered,North-East Hub,Courier F,No,No,7.0,1.0,No
+464,B-26064,2019-03-16,Ankita,Maharashtra,Mumbai,West,E008,Neha,2,2019-03-18,7,2019-03-25,2019-03-27,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+465,B-26065,2019-03-16,Nida,Madhya Pradesh,Indore,Central,E001,Rahul,0,2019-03-16,3,2019-03-19,2019-03-17,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
+466,B-26066,2019-03-16,Priyanka,Maharashtra,Pune,West,E002,Priya,1,2019-03-17,4,2019-03-21,2019-03-20,Delivered,West Hub,Courier A,No,No,3.0,0.0,Yes
+467,B-26067,2019-03-16,Tulika,Madhya Pradesh,Bhopal,Central,E003,Arjun,2,2019-03-18,5,2019-03-23,2019-03-23,Delivered,Central Hub,Courier B,No,No,5.0,0.0,Yes
+468,B-26068,2019-03-16,Shefali,Rajasthan,Jaipur,North,E004,Sneha,0,2019-03-16,6,2019-03-22,2019-03-23,Delivered,North Hub,Courier C,No,No,7.0,1.0,No
+469,B-26069,2019-03-17,Sanskriti,West Bengal,Kolkata,East,E005,Kiran,1,2019-03-18,7,2019-03-25,2019-03-27,Delivered,East Hub,Courier D,No,No,9.0,2.0,No
+470,B-26070,2019-03-18,Shruti,Karnataka,Bangalore,South,E006,Anjali,2,2019-03-20,3,2019-03-23,2019-03-21,Delivered,South Hub,Courier E,No,No,1.0,0.0,Yes
+471,B-26071,2019-03-19,Subhashree,Jammu and Kashmir,Kashmir,North,E007,Vikram,0,2019-03-19,4,2019-03-23,2019-03-22,Delivered,North Hub,Courier C,No,No,3.0,0.0,Yes
+472,B-26072,2019-03-20,Sweta,Maharashtra,Mumbai,West,E008,Neha,1,2019-03-21,5,2019-03-26,2019-03-26,Delivered,West Hub,Courier A,No,No,5.0,0.0,Yes
+473,B-26073,2019-03-21,Pournamasi,Madhya Pradesh,Indore,Central,E001,Rahul,2,2019-03-23,6,2019-03-29,2019-03-30,Delivered,Central Hub,Courier B,No,No,7.0,1.0,No
+474,B-26074,2019-03-21,Bharat,Gujarat,Ahmedabad,West,E002,Priya,0,2019-03-21,7,2019-03-28,2019-03-30,Delivered,West Hub,Courier A,No,No,9.0,2.0,No
+475,B-26075,2019-03-21,Pearl,Maharashtra,Pune,West,E003,Arjun,1,2019-03-22,3,2019-03-25,2019-03-23,Delivered,West Hub,Courier A,No,No,1.0,0.0,Yes
+476,B-26076,2019-03-21,Jahan,Madhya Pradesh,Bhopal,Central,E004,Sneha,2,2019-03-23,4,2019-03-27,,Processing,Central Hub,Courier B,No,No,,,
+477,B-26077,2019-03-22,Divsha,Rajasthan,Jaipur,North,E005,Kiran,0,2019-03-22,5,2019-03-27,,Processing,North Hub,Courier C,No,No,,,
+478,B-26078,2019-03-22,Kasheen,West Bengal,Kolkata,East,E006,Anjali,1,2019-03-23,6,2019-03-29,,Processing,East Hub,Courier D,No,No,,,
+479,B-26079,2019-03-22,Hazel,Karnataka,Bangalore,South,E007,Vikram,2,2019-03-24,7,2019-03-31,,Processing,South Hub,Courier E,No,No,,,
+480,B-26080,2019-03-22,Sonakshi,Jammu and Kashmir,Kashmir,North,E008,Neha,0,2019-03-22,3,2019-03-25,,Processing,North Hub,Courier C,No,No,,,
+481,B-26081,2019-03-22,Aarushi,Tamil Nadu,Chennai,South,E001,Rahul,1,2019-03-23,4,2019-03-27,,Processing,South Hub,Courier E,No,No,,,
+482,B-26082,2019-03-23,Jitesh,Uttar Pradesh,Lucknow,North,E002,Priya,2,2019-03-25,5,2019-03-30,,Processing,North Hub,Courier C,No,No,,,
+483,B-26083,2019-03-24,Yogesh,Bihar,Patna,East,E003,Arjun,0,2019-03-24,6,2019-03-30,,Processing,East Hub,Courier D,No,No,,,
+484,B-26084,2019-03-25,Anita,Kerala,Thiruvananthapuram,South,E004,Sneha,1,2019-03-26,7,2019-04-02,,Pending,South Hub,Courier E,No,No,,,
+485,B-26085,2019-03-26,Shrichand,Punjab,Chandigarh,North,E005,Kiran,2,2019-03-28,3,2019-03-31,,Pending,North Hub,Courier C,No,No,,,
+486,B-26086,2019-03-26,Mukesh,Haryana,Chandigarh,North,E006,Anjali,0,2019-03-26,4,2019-03-30,,Pending,North Hub,Courier C,No,No,,,
+487,B-26087,2019-03-26,Vandana,Himachal Pradesh,Simla,North,E007,Vikram,1,2019-03-27,5,2019-04-01,,Pending,North Hub,Courier C,No,No,,,
+488,B-26088,2019-03-26,Bhavna,Sikkim,Gangtok,North-East,E008,Neha,2,2019-03-28,6,2019-04-03,,Pending,North-East Hub,Courier F,No,No,,,
+489,B-26089,2019-03-26,Kanak,Goa,Goa,West,E001,Rahul,0,2019-03-26,7,2019-04-02,,Pending,West Hub,Courier A,No,No,,,
+490,B-26090,2019-03-27,Sagar,Nagaland,Kohima,North-East,E002,Priya,1,2019-03-28,3,2019-03-31,,Pending,North-East Hub,Courier F,No,No,,,
+491,B-26091,2019-03-27,Manju,Andhra Pradesh,Hyderabad,South,E003,Arjun,2,2019-03-29,4,2019-04-02,,Cancelled,South Hub,Courier E,Yes,No,,,
+492,B-26092,2019-03-27,Ramesh,Gujarat,Ahmedabad,West,E004,Sneha,0,2019-03-27,5,2019-04-01,,Cancelled,West Hub,Courier A,Yes,No,,,
+493,B-26093,2019-03-27,Sarita,Maharashtra,Pune,West,E005,Kiran,1,2019-03-28,6,2019-04-03,,Cancelled,West Hub,Courier A,Yes,No,,,
+494,B-26094,2019-03-27,Deepak,Madhya Pradesh,Bhopal,Central,E006,Anjali,2,2019-03-29,7,2019-04-05,,Cancelled,Central Hub,Courier B,Yes,No,,,
+495,B-26095,2019-03-28,Monisha,Rajasthan,Jaipur,North,E007,Vikram,0,2019-03-28,3,2019-03-31,,Cancelled,North Hub,Courier C,Yes,No,,,
+496,B-26096,2019-03-28,Atharv,West Bengal,Kolkata,East,E008,Neha,1,2019-03-29,4,2019-04-02,,Cancelled,East Hub,Courier D,Yes,No,,,
+497,B-26097,2019-03-28,Vini,Karnataka,Bangalore,South,E001,Rahul,2,2019-03-30,5,2019-04-04,2019-04-04,Returned,South Hub,Courier E,No,Yes,5.0,0.0,Yes
+498,B-26098,2019-03-29,Pinky,Jammu and Kashmir,Kashmir,North,E002,Priya,0,2019-03-29,6,2019-04-04,2019-04-05,Returned,North Hub,Courier C,No,Yes,7.0,1.0,No
+499,B-26099,2019-03-30,Bhishm,Maharashtra,Mumbai,West,E003,Arjun,1,2019-03-31,7,2019-04-07,2019-04-09,Returned,West Hub,Courier A,No,Yes,9.0,2.0,No
+500,B-26100,2019-03-31,Hitika,Madhya Pradesh,Indore,Central,E004,Sneha,2,2019-04-02,3,2019-04-05,2019-04-03,Delivered,Central Hub,Courier B,No,No,1.0,0.0,Yes
