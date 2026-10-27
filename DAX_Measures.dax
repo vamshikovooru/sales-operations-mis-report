@@ -1,0 +1,30 @@
+-- Power BI DAX measures
+-- Model: Master_Sales (fact transaction table), Operations_MIS (one row per order), Targets (month/category grain)
+-- Relationships: Operations_MIS[order_id] 1:* Master_Sales[order_id]; Targets[month_start] and category should be joined via dedicated Date and Category dimensions for a robust model.
+
+Total Sales = SUM(Master_Sales[sales_amount])
+Total Profit = SUM(Master_Sales[profit])
+Units Sold = SUM(Master_Sales[quantity])
+Unique Orders = DISTINCTCOUNT(Master_Sales[order_id])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+Loss-Making Lines = CALCULATE(COUNTROWS(Master_Sales), Master_Sales[profit] < 0)
+Loss-Making Line % = DIVIDE([Loss-Making Lines], COUNTROWS(Master_Sales), 0)
+
+-- Use this only when Targets is related at month/category grain, not by repeated target values on Master_Sales.
+Total Target = SUM(Targets[target])
+Target Variance = [Total Sales] - [Total Target]
+Target Achievement % = DIVIDE([Total Sales], [Total Target], 0)
+
+Order Count (Operations) = DISTINCTCOUNT(Operations_MIS[order_id])
+Cancelled Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Cancelled")
+Returned Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Returned")
+Pending Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Pending")
+Processing Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Processing")
+Cancellation Rate = DIVIDE([Cancelled Orders], [Order Count (Operations)], 0)
+Return Rate = DIVIDE([Returned Orders], [Order Count (Operations)], 0)
+Delivered Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Delivered")
+On-Time Delivered Orders = CALCULATE([Order Count (Operations)], Operations_MIS[order_status] = "Delivered", Operations_MIS[on_time_flag] = "Yes")
+On-Time Delivery % = DIVIDE([On-Time Delivered Orders], [Delivered Orders], 0)
+Average Processing Days = AVERAGE(Operations_MIS[processing_days])
+Average Delivery Days = AVERAGEX(FILTER(Operations_MIS, Operations_MIS[order_status] IN {"Delivered", "Returned"}), Operations_MIS[delivery_days])
+Average Delay Days = AVERAGEX(FILTER(Operations_MIS, Operations_MIS[order_status] IN {"Delivered", "Returned"}), Operations_MIS[delay_days])
