@@ -1,4 +1,4 @@
-Sales & Operations MIS Automation
+#Sales & Operations MIS Automation
 Portfolio project | Excel + SQL + Power BI
 Overview
 An end-to-end MIS reporting demonstration using a historical India sales/order dataset. The project separates transaction-level sales from order-level operations and builds recurring reports for sales, profit, quantity, order volume, category performance, region performance and target attainment.
