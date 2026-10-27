@@ -22,6 +22,7 @@ An end-to-end MIS reporting demonstration using a historical India sales/order d
 - `sql/02_mis_reporting_queries.sql` — KPI and recurring MIS queries.
 - `power_bi/DAX_Measures.dax` — starter DAX measures.
 - `docs/Sales_Operations_MIS_Project_Report.docx` — detailed project report.
+- `Sales_MIS_dashboard.pbix.` — PowerBI Dashboard report.
 
 ## How to use
 1. Open the Excel workbook and start at `Executive_Dashboard`.
