@@ -21,10 +21,7 @@ An end-to-end MIS reporting demonstration using a historical India sales/order d
 - `sql/01_schema.sql` — PostgreSQL table definitions.
 - `sql/02_mis_reporting_queries.sql` — KPI and recurring MIS queries.
 - `power_bi/DAX_Measures.dax` — starter DAX measures.
-- `power_bi/Power_BI_Dashboard_Build_Guide.md` — model and report build instructions.
 - `docs/Sales_Operations_MIS_Project_Report.docx` — detailed project report.
-- `docs/Resume_Bullets_and_Interview_Guide.docx` — resume bullets and interview prep.
-- `visuals/` — sample charts.
 
 ## How to use
 1. Open the Excel workbook and start at `Executive_Dashboard`.
